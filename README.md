@@ -89,10 +89,6 @@ cp .env.example .env
 npm run dev
 ```
 
-### 4. Access the Application
-- **Frontend**: https://messagify-real-time-chat-app-green.vercel.app/
-- **Backend**: https://messagify-real-time-chat-app-ciu4.onrender.com
-
 ## 📁 Project Structure
 
 ```
@@ -127,18 +123,13 @@ Real-Time-ChatApp/
 ```env
 PORT=5001
 NODE_ENV=development
-MONGODB_URI=mongodb://localhost:27017/messagify
+MONGODB_URI=...
 JWT_SECRET=your-super-secret-jwt-key
 CLOUDINARY_CLOUD_NAME=your-cloud-name
 CLOUDINARY_API_KEY=your-api-key
 CLOUDINARY_API_SECRET=your-api-secret
 ```
 
-### Frontend (.env)
-```env
-VITE_API_URL=http://localhost:5001
-VITE_SOCKET_URL=http://localhost:5001
-```
 
 ## API Documentation
 
